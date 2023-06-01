@@ -1,29 +1,29 @@
 import { MenuItem } from "./menuItem";
 
-export const menuItes: MenuItem[] = [
+export const menuItems: MenuItem[] = [
   {
     link: '/dashboard',
-    icon: 'fas fa-chart-line',
+    icon: 'fa-chart-line',
     label: 'Dashboard'
   },
   {
     link: '/courses',
-    icon: 'fas fa-graduation-cap',
+    icon: 'fa-graduation-cap',
     label: 'Cursos'
   },
   {
     link: '/teachers',
-    icon: 'fas fa-person-chalkboard',
+    icon: 'fa-person-chalkboard',
     label: 'Professores'
   },
   {
     link: '/students',
-    icon: 'fas fa-chalkboard-user',
+    icon: 'fa-chalkboard-user',
     label: 'Alunos'
   },
   {
     link: '/support',
-    icon: 'fas fa-headset',
+    icon: 'fa-headset',
     label: 'Suporte'
   }
   
