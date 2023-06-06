@@ -2,7 +2,8 @@
   <mat-toolbar-row>
     <a href="/dashboard" mat-button class="logo">
       <mat-icon fontSet="fa" fontIcon="fa-school"></mat-icon>
-      <span *ngIf="popText">{{ menuTitle }}</span>
+      <span class="title" *ngIf="!popText">ProjectSchool</span>
+      <span class="title" *ngIf="popText">ProjectSchool - {{ menuTitle }}</span>
     </a>
     <div class="content-center">
       <button mat-button [matMenuTriggerFor]="beforeMenu">
